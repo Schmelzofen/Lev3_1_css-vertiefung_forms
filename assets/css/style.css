@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+article{
+    width: 30%;
+}
+/* fieldset{
+    width: 50%;
+} */
+
+h1, p{
+    background-color: rgb(0,129,166);
+    color: #fff;
+    padding: 0 0 0 3%;
+/*     font-weight: bold; */
+}
+
+h1{
+    border-radius: 10px 10px 0 0;
+    padding: 2% 0 0 5%;
+}
+
+p{
+    padding: 0 0 2% 5%;
+}
+
+article{
+    box-shadow: 0 0 5px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5% 0 0 5%;
+    padding: 0 0 2% 0;
+}
+
+fieldset{
+    width: 90%;
+    padding: 2% 0 5% 2%;
+    margin: 3% 3% 3% 4%;
+    background-color: rgb(246,246,246);
+    border: none;
+}
+
+legend{
+    color: rgb(0,129,166);
+    font-size: 3vh;
+}
+
+.fna::before{
+    content: "1 ";
+    color: #fff;
+    background-color: rgb(0,129,166);
+    border-radius: 1000px;
+}
+
+.ep::before{
+    content: "2 ";
+    color: #fff;
+    background-color: rgb(0,129,166);
+    border-radius: 1000px;
+}
+
+.pwd::before{
+    content: "3 ";
+    color: #fff;
+    background-color: rgb(0,129,166);
+    border-radius: 1000px;
+}
+
+.button{
+    margin: 0 0 0 5%;
+    padding: 3% 6%;
+    background-color: rgb(0,129,166);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: purple;
+}
+
+.terms{
+    font-size: 1.5vh;
+}
+
+.checkbox{
+    margin: 5% 0 0 20%;
+}
+
+fieldset input{
+    width: 60%;
+    border: none;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+fieldset label{
+    font-size: 2vh;
+    color: gray;
+}
